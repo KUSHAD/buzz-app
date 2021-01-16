@@ -4,7 +4,7 @@ import { HeaderComponent } from '../../Components';
 export default function Instagram() {
 	return (
 		<>
-			<HeaderComponent text="Buzz App | Instagram Screen" />
+			<HeaderComponent text="Buzz App | Instagram Screen" bgColor="#8a3ab9" />
 			<View style={Styles.container}>
 				<Text>Buzz App | Instagram Screen</Text>
 			</View>

@@ -4,7 +4,7 @@ import { HeaderComponent } from '../../Components';
 export default function FaceBook() {
 	return (
 		<>
-			<HeaderComponent text="Buzz App | FaceBook Screen" />
+			<HeaderComponent text="Buzz App | FaceBook Screen" bgColor="#2196f3" />
 			<View style={Styles.container}>
 				<Text>Buzz App | FaceBook Screen</Text>
 			</View>

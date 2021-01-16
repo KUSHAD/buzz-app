@@ -1,9 +1,16 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function Header({ text }) {
+export default function Header({ text, bgColor }) {
 	return (
-		<View style={Styles.container}>
+		<View
+			style={[
+				Styles.container,
+				{
+					backgroundColor: bgColor,
+				},
+			]}
+		>
 			<Text style={Styles.text}>{text}</Text>
 		</View>
 	);
@@ -12,7 +19,6 @@ export default function Header({ text }) {
 const Styles = StyleSheet.create({
 	container: {
 		display: 'flex',
-		backgroundColor: '#4630eb',
 		height: '6vh',
 		justifyContent: 'center',
 		alignItems: 'center',
